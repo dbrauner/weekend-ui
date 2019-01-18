@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "https://weekend-backend.cfapps.sap.hana.ondemand.com"
+        url: "service"
     }).then(function(data) {
        $('.greeting-content').append(data);
     });
